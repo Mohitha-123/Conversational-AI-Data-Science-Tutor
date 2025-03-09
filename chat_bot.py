@@ -6,7 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 memory = ConversationBufferMemory()
 
 # Initialize Gemini 1.5 Pro Model (Replace with actual API key and settings)
-chat_model = ChatGoogleGenerativeAI(model="gemini-1.5-pro", temperature=0.7, google_api_key="AIzaSyBItvysBggCo5T2iE61M209b24e36FmiBo")
+chat_model = ChatGoogleGenerativeAI(model="gemini-1.5-pro", temperature=0.7, google_api_key="YOUR_API_KEY")
 
 def conversational_tutor(user_input):
     """Function to interact with the conversational AI tutor."""
